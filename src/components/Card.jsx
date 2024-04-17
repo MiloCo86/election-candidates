@@ -1,6 +1,6 @@
 import "../styles/card.css"
 
-const person = "../src/assets/person.jpg";
+import person from "../assets/person.jpg";
 
 const Card = (props) => {
   return (

@@ -1,5 +1,5 @@
 import '../styles/navbar.css'
-const flag = '../src/assets/image.png';
+import flag from '../assets/image.png';
 
 const Navbar = () => {
   return (
