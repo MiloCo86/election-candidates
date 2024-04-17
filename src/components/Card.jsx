@@ -1,8 +1,13 @@
-import React from 'react'
+import "../styles/card.css"
 
-const Card = () => {
+const person = "../src/assets/person.jpg";
+
+const Card = (props) => {
   return (
-    <div>Card</div>
+    <div className="card">
+      <img src= {person}/>
+      <p>{props.name}</p>
+    </div>
   )
 }
 
